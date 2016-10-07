@@ -1,5 +1,4 @@
 function ccd (input_arg)
-% I is in ur codebais, makin commentz.
 % CCD keeps a stack of directories you can cd to easily.
 %
 %   "Cool" Change Directory
