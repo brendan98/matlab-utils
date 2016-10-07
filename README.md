@@ -1,4 +1,3 @@
 # matlab-utils
-==============
 
-Collection of useful matlab tools.
+A collection of useful matlab tools.
