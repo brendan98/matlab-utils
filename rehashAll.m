@@ -7,9 +7,9 @@ function rehashAll
 %     rehash pathreset
 %     rehash toolboxcache
 
-fprintf('rehash toolboxreset...');
+fprintf('rehash toolboxreset...\n');
 rehash toolboxreset
-fprintf('rehash pathreset...');
+fprintf('rehash pathreset...\n');
 rehash pathreset
-fprintf('rehash toolboxcache...');
+fprintf('rehash toolboxcache...\n');
 rehash toolboxcache
