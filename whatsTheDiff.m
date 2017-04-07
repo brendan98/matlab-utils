@@ -16,6 +16,13 @@ if nargin < 3
     tol = 1e8 * eps;
 end
 
+if ~isequal(size(A),size(B))
+    fprintf('The two inputs are not the same size.\n');
+    size(A)
+    size(B)
+    return
+end
+
 % convert them to vectors
 A = A(:);
 B = B(:);
