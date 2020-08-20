@@ -27,8 +27,14 @@ end
 A = A(:);
 B = B(:);
 
-% compute various values
+% test for within the tolerance
 maxDiff = max(abs(A-B));
+if maxDiff < tol
+    fprintf('The maximum difference between inputs is: %e.\n',maxDiff);
+    return
+end    
+
+% compute various values
 diffArray = abs(A-B);
 failureArray = diffArray(diffArray > tol);
 numDiff = numel(failureArray);
